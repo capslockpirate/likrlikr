@@ -2,6 +2,10 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    template: `
+        <h3>Login</h3>
+        <input placeholder="Email" type="email">
+        <input placeholder="Password" type="password">
+    `
 })
 export class AppComponent { }
